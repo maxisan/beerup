@@ -1,0 +1,40 @@
+/* Tailwind configuration*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300;400;700&display=swap');
+
+
+/* Class for reusable components */
+@layer components {
+
+  .title {
+    @apply font-title text-xl;
+  }
+
+  .btn {
+    @apply rounded-full p-3 w-5/6 m-3 font-bold desk:max-w-xs desk:transition desk:duration-200 desk:outline-none desk:appearance-none;
+  }
+  
+  .btn-primary {
+    @apply bg-redPrimary border-redPrimary border-solid border-2 text-white desk:hover:bg-white desk:hover:text-redPrimary ; 
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-redPrimary border-redPrimary border-solid border-2 desk:hover:text-almostBlack desk:hover:border-almostBlack ; 
+  }
+
+  .inputStyle {
+    @apply h-10 border-redPrimary border-solid border-2 bg-white w-3/4 m-2 text-almostBlack font-bold text-center rounded-xl
+  }
+
+  .labelStyle {
+    @apply text-xl m-1 text-almostBlack
+  }
+
+}
+

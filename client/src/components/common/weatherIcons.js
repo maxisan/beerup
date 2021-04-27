@@ -1,0 +1,32 @@
+import {
+    TiWeatherSunny,
+    TiWeatherNight,
+    TiWeatherPartlySunny,
+    TiWeatherCloudy,
+    TiWeatherShower,
+    TiWeatherDownpour,
+    TiWeatherStormy,
+    TiWeatherSnow,
+    TiWeatherWindy,
+} from 'react-icons/ti'
+
+export const weatherIcons = {
+    "01d": <TiWeatherSunny className='inline text-4xl'/>,
+    "01n": <TiWeatherNight className='inline text-4xl'/>,
+    "02d": <TiWeatherPartlySunny className='inline text-4xl'/>,
+    "02n": <TiWeatherPartlySunny className='inline text-4xl'/>,
+    "03d": <TiWeatherCloudy className='inline text-4xl'/>,
+    "03n": <TiWeatherCloudy className='inline text-4xl'/>,
+    "04d": <TiWeatherCloudy className='inline text-4xl'/>,
+    "04n": <TiWeatherCloudy className='inline text-4xl'/>,
+    "09d": <TiWeatherShower className='inline text-4xl'/>,
+    "09n": <TiWeatherShower className='inline text-4xl'/>,
+    "10d": <TiWeatherDownpour className='inline text-4xl'/>,
+    "10n": <TiWeatherDownpour className='inline text-4xl'/>,
+    "11d": <TiWeatherStormy className='inline text-4xl'/>,
+    "11n": <TiWeatherStormy className='inline text-4xl'/>,
+    "13d": <TiWeatherSnow className='inline text-4xl'/>, 
+    "13n": <TiWeatherSnow className='inline text-4xl'/>,
+    "50d": <TiWeatherWindy className='inline text-4xl'/>, 
+    "50n": <TiWeatherWindy className='inline text-4xl'/>, 
+}

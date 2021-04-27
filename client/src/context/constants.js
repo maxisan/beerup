@@ -1,0 +1,4 @@
+export const GET_ALL_USERS = 'GET_ALL_USERS';
+export const SET_LOGGED_USER = 'SET_LOGGED_USER';
+export const GET_ALL_MEETUPS = 'GET_ALL_MEETUPS';
+export const GET_SELECTED_MEETUP = 'GET_SELECTED_MEETUP';
